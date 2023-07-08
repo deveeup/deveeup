@@ -1,0 +1,55 @@
+body {
+  background: rgb(52, 75, 164);
+  background: linear-gradient(0deg, rgba(52, 75, 164, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+  section {
+    padding: 10px 20px;
+    code {
+      text-align: justify;
+    }
+    table {
+      tr {
+        width: 100%;
+        .title {
+          padding: 15px 0;
+          width: 30%;
+          text-align: left;
+          font-size: 14px;
+        }
+        td {
+          text-align: left;
+          code {
+            background-color: rgba(white, .3);
+            border-radius: 5px;
+            padding: 5px 10px;
+          }
+          ul {
+            text-align: left;
+            margin: 0;
+            padding: 0;
+            li {
+              font-size: 14px;
+              margin: 0;
+              padding: 0;
+              list-style: none;
+              text-align: left;
+              font-family: monospace;
+            }
+          }
+          a {
+            font-weight: bold;
+            color: rgba(blue, .6);
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
