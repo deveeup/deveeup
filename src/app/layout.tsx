@@ -1,6 +1,5 @@
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import './index.scss';
+import Header from "./components/header";
 
 export const metadata = {
   title: 'David Camacho',
@@ -14,7 +13,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        <Header />
+        <section>
+          {children}
+        </section>
+      </body>
     </html>
   )
 }

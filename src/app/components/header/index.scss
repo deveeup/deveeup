@@ -1,0 +1,35 @@
+.visualHeader {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  img {
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 50px auto 20px auto;
+  }
+  code {
+    font-size: 25px;
+    margin: 0 auto 15px auto;
+  }
+  .menu {
+    background-color: rgba(black, 0.5);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+    a {
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      transition: 0.2s;
+      &:active {
+        background-color: rgba(black, 0.7);
+        font-size: 14px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
